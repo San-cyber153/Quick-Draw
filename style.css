@@ -1,0 +1,42 @@
+body
+{
+    background-color: aqua;
+}
+
+h1
+{
+    color: darkred;
+    background-color: deepskyblue;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: Sanchith;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Sanchith {
+    from{box-shadow: 1px 1px 38px royalblue;}
+    to{box-shadow: 1px 1px 38px hotpink}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#button_clearCanvas
+{
+    margin-bottom: 20px;
+    float: left;
+}
